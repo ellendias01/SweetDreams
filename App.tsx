@@ -12,14 +12,14 @@
  */
 
 import React, { useState, useEffect } from 'react';
-import { toast, Toaster } from 'sonner@2.0.3';
-import Navigation from './components/Navigation';
-import HomeScreen from './screens/HomeScreen';
-import ProfileScreen from './screens/ProfileScreen';
-import FollowingScreen from './screens/FollowingScreen';
-import NotificationsScreen from './screens/NotificationsScreen';
-import DashboardScreen from './screens/DashboardScreen';
-import ABTestingService from './services/ABTestingService';
+import { toast, Toaster } from 'sonner';
+import Navigation from './src/components/Navigation';
+import HomeScreen from './src/screens/HomeScreen';
+import ProfileScreen from './src/screens/ProfileScreen';
+import FollowingScreen from './src/screens/FollowingScreen';
+import NotificationsScreen from './src/screens/NotificationsScreen';
+import DashboardScreen from './src/screens/DashboardScreen';
+import ABTestingService from './src/services/ABTestingService';
 
 type Screen = 'home' | 'profile' | 'following' | 'notifications' | 'dashboard';
 
