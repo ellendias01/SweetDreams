@@ -1,16 +1,11 @@
-# sweet_dreams
 
-A new Flutter project.
+  # Twitter Clone App
 
-## Getting Started
+  This is a code bundle for Twitter Clone App. The original project is available at https://www.figma.com/design/3Z1IaEkLGQAHcKmq0pO2Ch/Twitter-Clone-App.
 
-This project is a starting point for a Flutter application.
+  ## Running the code
 
-A few resources to get you started if this is your first Flutter project:
+  Run `npm i` to install the dependencies.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  Run `npm run dev` to start the development server.
+  
